@@ -6,7 +6,11 @@ public class Examen{
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su edad: ");
         int edad = scanner.nextInt();
-        System.out.println ("Su edad es_" + edad);
-
+        System.out.println ("Su edad es " + edad);
+        if ( edad < 18){
+            System.out.println("Usted es menor de edad");
+        } else {
+            System.out.println("Usted es mayor de edad");
         }
+    }
 }
