@@ -86,7 +86,7 @@ public class Examen{
         int suspensas = 10 - aprobadas;
         System.out .println("Suspensas: " + suspensas);
 
-    
+
         if (nota1 >= 1 && nota1 <= 10) {
             System.out.println("Nota 1 válida");
         } else {
@@ -161,5 +161,19 @@ public class Examen{
             if (nota10 > mayor) mayor = nota10;
 
         System.out.println("La nota más alta es: " + mayor);
+
+        int menor = nota1;
+
+            if (nota2 < menor) menor = nota2;
+            if (nota3 < menor) menor = nota3;
+            if (nota4 < menor) menor = nota4;
+            if (nota5 < menor) menor = nota5;
+            if (nota6 < menor) menor = nota6;
+            if (nota7 < menor) menor = nota7;
+            if (nota8 < menor) menor = nota8;
+            if (nota9 < menor) menor = nota9;
+            if (nota10 < menor) menor = nota10;
+
+        System.out.println("La nota más baja es: " + menor);
     }
 }
