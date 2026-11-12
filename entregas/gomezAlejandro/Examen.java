@@ -34,6 +34,38 @@ public class Examen{
         } 
         else {
             System.out.println("Error en la cantidad de asignaturas máximo 10 y mínimo 1");
-        } 
+        }
+        
+        System.out.println ("Introduzca la nota de la asignatura 1 del 1-10: "); 
+        int nota1 = scanner.nextInt();
+        
+        System.out.println ("Introduzca la nota de la asignatura 2 del 1-10: ");
+        int nota2 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 3 del 1-10: ");
+        int nota3 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 4 del 1-10: ");
+        int nota4 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 5 del 1-10: ");
+        int nota5 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 6 del 1-10: ");
+        int nota6 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 7 del 1-10: ");
+        int nota7 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 8 del 1-10: ");
+        int nota8 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 9 del 1-10: ");
+        int nota9 = scanner.nextInt();
+
+        System.out.println ("Introduzca la nota de la asignatura 10 del 1-10: ");
+        int nota10 = scanner.nextInt();
+    
+
     }
 }
