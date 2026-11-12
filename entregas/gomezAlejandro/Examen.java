@@ -13,6 +13,7 @@ public class Examen{
             System.out.println("Usted es mayor de edad");
         }
        
+
         System.out.println("Ingrese su edad: ");
         int edad1 = scanner.nextInt();
         if ( edad1 >= 17 && edad1 <= 70){
@@ -21,5 +22,8 @@ public class Examen{
         else {
             System.out.println("Edad no válida");
         }
+
+        System.out.println("¿En qué asignaturas estás matriculado?");
+        
     }
 }
