@@ -86,9 +86,7 @@ public class Examen{
         int suspensas = 10 - aprobadas;
         System.out .println("Suspensas: " + suspensas);
 
-        Sí. Para que cada nota sea válida entre 1 y 10, la condición es >= 1 && <= 10 (no >= 10 && <= 1). Repite el if para cada variable:
-
-        Java
+    
         if (nota1 >= 1 && nota1 <= 10) {
             System.out.println("Nota 1 válida");
         } else {
