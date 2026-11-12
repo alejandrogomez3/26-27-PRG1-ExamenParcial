@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class examen{ 
+public class Examen{ 
     public static void main (String [] args){
         
         System.out.println("Examen Parcial PRG1");
@@ -82,8 +82,70 @@ public class examen{
         if (nota10 >= 5) aprobadas++;
         
         System.out.println("Aprobadas: " + aprobadas);
-
+        
         int suspensas = 10 - aprobadas;
         System.out .println("Suspensas: " + suspensas);
+
+        Sí. Para que cada nota sea válida entre 1 y 10, la condición es >= 1 && <= 10 (no >= 10 && <= 1). Repite el if para cada variable:
+
+        Java
+        if (nota1 >= 1 && nota1 <= 10) {
+            System.out.println("Nota 1 válida");
+        } else {
+            System.out.println("Nota 1 no válida");
+        }
+        
+        if (nota2 >= 1 && nota2 <= 10) {
+            System.out.println("Nota 2 válida");
+        } else {
+            System.out.println("Nota 2 no válida");
+        }
+        
+        if (nota3 >= 1 && nota3 <= 10) {
+            System.out.println("Nota 3 válida");
+        } else {
+            System.out.println("Nota 3 no válida");
+        }
+        
+        if (nota4 >= 1 && nota4 <= 10) {
+            System.out.println("Nota 4 válida");
+        } else {
+            System.out.println("Nota 4 no válida");
+        }
+        
+        if (nota5 >= 1 && nota5 <= 10) {
+            System.out.println("Nota 5 válida");
+        } else {
+            System.out.println("Nota 5 no válida");
+        }
+        
+        if (nota6 >= 1 && nota6 <= 10) {
+            System.out.println("Nota 6 válida");
+        } else {
+            System.out.println("Nota 6 no válida");
+        }
+        
+        if (nota7 >= 1 && nota7 <= 10) {
+            System.out.println("Nota 7 válida");
+        } else {
+            System.out.println("Nota 7 no válida");
+        }
+        
+        if (nota8 >= 1 && nota8 <= 10) {
+            System.out.println("Nota 8 válida");
+        } else {
+            System.out.println("Nota 8 no válida");
+        }
+        
+        if (nota9 >= 1 && nota9 <= 10) {
+            System.out.println("Nota 9 válida");
+        } else {
+            System.out.println("Nota 9 no válida");
+        }
+        
+        if (nota10 >= 1 && nota10 <= 10) {
+            System.out.println("Nota 10 válida");
+        } else {
+            System.out.println("Nota 10 no válida");
     }
 }
