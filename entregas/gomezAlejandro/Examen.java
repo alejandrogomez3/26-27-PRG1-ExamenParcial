@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Examen{ 
+public class examen{ 
     public static void main (String [] args){
         
         System.out.println("Examen Parcial PRG1");
@@ -65,7 +65,8 @@ public class Examen{
 
         System.out.println ("Introduzca la nota de la asignatura 10 del 1-10: ");
         int nota10 = scanner.nextInt();
-    
-
+        
+        double media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10) / 10.0;
+        System.out.println ("La media de las notas es: " + media);
     }
 }
