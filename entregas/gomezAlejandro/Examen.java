@@ -70,18 +70,20 @@ public class examen{
         System.out.println ("La media de las notas es: " + media);
         int aprobadas = 0;
 
-        if (nota1 >= 6) aprobadas++;
-        if (nota2 >= 6) aprobadas++;
-        if (nota3 >= 6) aprobadas++;
-        if (nota4 >= 6) aprobadas++;
-        if (nota5 >= 6) aprobadas++;
-        if (nota6 >= 6) aprobadas++;
-        if (nota7 >= 6) aprobadas++;
-        if (nota8 >= 6) aprobadas++;
-        if (nota9 >= 6) aprobadas++;
-        if (nota10 >= 6) aprobadas++;
+        if (nota1 >= 5) aprobadas++;
+        if (nota2 >= 5) aprobadas++;
+        if (nota3 >= 5) aprobadas++;
+        if (nota4 >= 5) aprobadas++;
+        if (nota5 >= 5) aprobadas++;
+        if (nota6 >= 5) aprobadas++;
+        if (nota7 >= 5) aprobadas++;
+        if (nota8 >= 5) aprobadas++;
+        if (nota9 >= 5) aprobadas++;
+        if (nota10 >= 5) aprobadas++;
         
         System.out.println("Aprobadas: " + aprobadas);
-        
+
+        int suspensas = 10 - aprobadas;
+        System.out .println("Suspensas: " + suspensas);
     }
 }
