@@ -145,7 +145,23 @@ public class Examen{
         
         if (nota10 >= 1 && nota10 <= 10) {
             System.out.println("Nota 10 válida");
-        } else {
+        } 
+        else {
             System.out.println("Nota 10 no válida");
+        }
+
+        int mayor = nota1;
+
+            if (nota2 > mayor) mayor = nota2;
+            if (nota3 > mayor) mayor = nota3;
+            if (nota4 > mayor) mayor = nota4;
+            if (nota5 > mayor) mayor = nota5;
+            if (nota6 > mayor) mayor = nota6;
+            if (nota7 > mayor) mayor = nota7;
+            if (nota8 > mayor) mayor = nota8;
+            if (nota9 > mayor) mayor = nota9;
+            if (nota10 > mayor) mayor = nota10;
+
+        System.out.println("La nota más alta es: " + mayor);
     }
 }
