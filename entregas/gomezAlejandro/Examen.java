@@ -68,5 +68,20 @@ public class examen{
         
         double media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10) / 10.0;
         System.out.println ("La media de las notas es: " + media);
+        int aprobadas = 0;
+
+        if (nota1 >= 6) aprobadas++;
+        if (nota2 >= 6) aprobadas++;
+        if (nota3 >= 6) aprobadas++;
+        if (nota4 >= 6) aprobadas++;
+        if (nota5 >= 6) aprobadas++;
+        if (nota6 >= 6) aprobadas++;
+        if (nota7 >= 6) aprobadas++;
+        if (nota8 >= 6) aprobadas++;
+        if (nota9 >= 6) aprobadas++;
+        if (nota10 >= 6) aprobadas++;
+        
+        System.out.println("Aprobadas: " + aprobadas);
+        
     }
 }
