@@ -175,5 +175,11 @@ public class Examen{
             if (nota10 < menor) menor = nota10;
 
         System.out.println("La nota más baja es: " + menor);
+
+        if (media >= 5 && menor <= 4) {
+            System.out.println("Promociona");
+        } else {
+            System.out.println("Recupera");
+        }
     }
 }
